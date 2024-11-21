@@ -1,0 +1,21 @@
+package projetoaltura;
+import java.util.Scanner;
+public class calculandoArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ Scanner scan= new Scanner(System.in);
+ int altura = 0,largura = 0,area=0,qtdtinta=0;
+ System.out.println("Insira a altura desejada");
+  altura= scan.nextInt();
+  System.out.println("Insira largura da parede");
+  largura=scan.nextInt();
+  area=altura*largura;
+  qtdtinta= area/2;
+ System.out.println("A área da parede é: " + area + " m²");
+ System.out.println("A quantidade de tinta necessária é: " + qtdtinta + " litro(s)");
+ scan.close();
+	}
+	
+
+}
